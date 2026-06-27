@@ -1,0 +1,28 @@
+[package]
+name = "embedded-camera-calibration"
+version = "0.1.0"
+edition = "2021"
+description = "Multi-projector geometric calibration with embedded cameras (CVPR 2026)."
+authors = ["Takumi Kawano"]
+license-file = "LICENSE"
+readme = "README.md"
+publish = false
+
+[dependencies]
+anyhow = "1.0.75"
+chrono = "0.4.42"
+clap = { version = "4.5.31", features = ["derive"] }
+display-info = "0.5.9"
+glob = "0.3.3"
+itertools = "0.14.0"
+maplit = "1.0.2"
+opencv = "0.97.0"
+ordered-float = "5.1.0"
+plotters = "0.3.7"
+rayon = "1.8.0"
+resvg = "0.45.1"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.121"
+strum = { version = "0.27", features = ["derive"] }
+tiny-skia = "0.11.4"
+usvg = "0.45.1"
